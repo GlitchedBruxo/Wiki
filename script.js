@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <h3>${result.title}</h3>
             <p>${result.snippet}</p>
-            <a href="https://en.wikipedia.org/?curid=${result.pageid}" target="_blank">Read More</a>
+            <a href="https://pt.wikipedia.org/?curid=${result.pageid}" target="_blank">Read More</a>
             `;
             resultsContainer.appendChild(resultElement);
         });
